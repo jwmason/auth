@@ -4,6 +4,8 @@ A simple React authentication demo showing the required flow:
 
 Login -> MFA -> Protected screen
 
+Demo Link: https://www.loom.com/share/55b540e4d4c24e4ba013b3fe47303149
+
 This app uses mock users and mock MFA codes to demonstrate:
 - login form validation
 - MFA verification
@@ -53,7 +55,7 @@ These are the demo accounts built into the app:
 4. The app will redirect to the MFA screen.
 5. Enter the matching mock MFA code.
 6. After validation, the protected dashboard loads.
-7. Confirm read-only users cannot edit, while read/write users can.
+7. Confirm read-only users cannot edit, while read/write users can (no functionality is built out for read/write users).
 
 ## Key design decisions and assumptions
 - The app intentionally uses mock data instead of a backend to keep the exercise focused on UX and access control.
@@ -65,7 +67,7 @@ These are the demo accounts built into the app:
 - No real authentication backend or database is implemented.
 - MFA codes are not persisted or sent over a real channel.
 - Sign up is a mock screen and does not create real accounts.
-- Access control is client-side only, which is appropriate for this exercise.
+- When users type incorrect email/password, the user is unaware which parameter is incorrect. This should be fixed but under time constraint was left alone.
 
 ## Demo run order
 1. Login with viewer@demo.com / Viewer123!
