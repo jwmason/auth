@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f8f9fa;
+}
+
+button,
+input {
+  border-radius: 0.5rem;
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.alert {
+  border-radius: 0.75rem;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+}
+
+.btn {
+  border-radius: 0.75rem;
+}
