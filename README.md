@@ -4,8 +4,6 @@ A simple React authentication demo showing the required flow:
 
 Login -> MFA -> Protected screen
 
-Demo Link: https://www.loom.com/share/55b540e4d4c24e4ba013b3fe47303149
-
 This app uses mock users and mock MFA codes to demonstrate:
 - login form validation
 - MFA verification
@@ -83,3 +81,5 @@ These are the demo accounts built into the app:
 npm test
 ```
 This checks the validation flow and the login/MFA success path.
+
+Demo Link: https://www.loom.com/share/55b540e4d4c24e4ba013b3fe47303149
